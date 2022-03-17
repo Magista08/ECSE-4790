@@ -1,0 +1,4 @@
+init.c:24:6:SystemClock_Config	80	static
+init.c:65:6:CPU_CACHE_Enable	4	static,ignoring_inline_asm
+init.c:74:6:Sys_Init	8	static
+init.c:93:6:SysTick_Handler	8	static

@@ -1,0 +1,45 @@
+*Starting from the 2019 Final Template:
+**Enable to build:
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_hal_sd.c 
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_hal_dma.c 
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_hal_dsi.c 
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_hal_ltdc.c 
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_hal_mmc.c 
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_hal_sdram.c 
+-stm32lib/STM32F7xx_HAL_DRIVER/Src/stm32f7xx_ll_sdmmc.c 
+NOTE: All of the above also need to be enabled in stm32f7xx_hal_conf.h
+-Libraries/BSP/STM32F769I-Discovery/stm32f769i_discovery_sd.c
+
+**Add include directory:
+-Libraries/BSP/STM32f769I-Discovery
+-FatFs/src/
+-FatFs/src/drivers
+
+
+**FatFS Driver:
+-~/STM32Cube/Repository/STM32Cube_FW_F7_V1.15.0/Middlewares/Third_Party/FatFs/src/drivers
+
+
+
+**DMA I/O
+Start read with HAL Jpeg
+
+
+** JPEG Utils
+Source + 2 header files
+
+
+** Tasks
+
+*** Task 1
+FATFs:
+Enumerate all files on an SD Card
+Print out contents of a text file
+
+*** Task 2
+Pass JPEG image through JPEG decoder with DMA
+Report file size + image quality stats
+
+*** Task 3 - Depth task
+Draw to screen or putty
+Will provide code for color space conversion + setting up LCD

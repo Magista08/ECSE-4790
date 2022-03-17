@@ -1,0 +1,7 @@
+error.h:156:19:mbedtls_error_add	24	static
+x509_csr.c:62:12:x509_csr_get_version	32	static
+x509_csr.c:85:5:mbedtls_x509_csr_parse_der	72	static
+x509_csr.c:257:5:mbedtls_x509_csr_parse	64	static
+x509_csr.c:332:5:mbedtls_x509_csr_info	64	static
+x509_csr.c:376:6:mbedtls_x509_csr_init	16	static
+x509_csr.c:384:6:mbedtls_x509_csr_free	24	static

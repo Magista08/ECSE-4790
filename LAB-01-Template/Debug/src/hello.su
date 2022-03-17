@@ -1,0 +1,4 @@
+hello.c:256:5:is_printable	0	static
+hello.c:262:6:GPIO_init	4	static
+hello.c:29:5:main	16	static
+hello.c:311:6:serial_print_things	16	static

@@ -1,0 +1,5 @@
+error.h:156:19:mbedtls_error_add	24	static
+pkcs5.c:53:12:pkcs5_parse_pbkdf2_params	48	static
+pkcs5.c:109:5:mbedtls_pkcs5_pbes2	296	static
+pkcs5.c:218:5:mbedtls_pkcs5_pbkdf2_hmac	184	static
+pkcs5.c:363:5:mbedtls_pkcs5_self_test	136	static

@@ -1,0 +1,8 @@
+uart.c:6:6:HAL_UART_MspInit	56	static
+uart.c:51:6:initUart	8	static
+uart.c:78:5:_write	8	static
+uart.c:84:5:_read	8	static
+uart.c:104:6:uart_print	16	static
+uart.c:110:6:uart_getchar	24	static
+uart.c:118:6:uart_putchar	8	static
+uart.c:125:5:uart_getline	24	static

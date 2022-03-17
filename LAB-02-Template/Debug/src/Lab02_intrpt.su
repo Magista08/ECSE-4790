@@ -1,0 +1,12 @@
+Lab02_intrpt.c:82:6:blinkScreen	8	static
+Lab02_intrpt.c:102:6:Init_Timer	0	static,ignoring_inline_asm
+Lab02_intrpt.c:134:6:HAL_Init_GPIO	16	static
+Lab02_intrpt.c:151:6:Init_GPIO	64	static,ignoring_inline_asm
+Lab02_intrpt.c:230:6:TIM6_DAC_IRQHandler	8	static
+Lab02_intrpt.c:241:6:TIM7_IRQHandler	8	static
+Lab02_intrpt.c:247:6:XXX_IRQHandler	0	static
+Lab02_intrpt.c:256:6:EXTI0_IRQHandler	8	static
+Lab02_intrpt.c:261:6:HAL_GPIO_EXTI_Callback	8	static
+Lab02_intrpt.c:268:6:HAL_TIM_PeriodElapsedCallback	8	static
+Lab02_intrpt.c:278:6:flash_screen	8	static
+Lab02_intrpt.c:47:5:main	8	static

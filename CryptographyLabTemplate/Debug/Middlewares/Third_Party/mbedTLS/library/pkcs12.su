@@ -1,0 +1,6 @@
+error.h:156:19:mbedtls_error_add	24	static
+pkcs12.c:44:12:pkcs12_parse_pbe_params	40	static
+pkcs12.c:80:12:pkcs12_pbe_derive_key_iv	344	static
+pkcs12.c:124:5:mbedtls_pkcs12_pbe	168	static
+pkcs12.c:183:13:pkcs12_fill_buffer	32	static
+pkcs12.c:198:5:mbedtls_pkcs12_derivation	656	static
